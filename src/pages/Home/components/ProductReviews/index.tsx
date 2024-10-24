@@ -34,8 +34,8 @@ const ProductPreviews = () => {
     const matches = useMediaQuery("(min-width: 760px)")
     const matches1 = useMediaQuery("(min-width: 1024px)")
     return (
-        <div className="pl-10 md:pl-20 lg:pl-36 mt-20 ">
-            <hr className="bg-[#21384218] text-[#21384218] mx-10 md:mx-20 lg:mr-40" />
+        <div className="pl-10 md:pl-20 lg:pl-36 mt-20 md:mb-40 mb-20">
+            <hr className="bg-[#21384218] text-[#21384218] px-10 md:px-20 lg:pr-36" />
             <h2 className="text-green-100 mb-6 text-[30px] md:text-xl font-bold mt-10 md:mt-20">
                 Product Reviews
             </h2>
@@ -53,7 +53,7 @@ const ProductPreviews = () => {
                         //height={200}
                         <Carousel.Slide
                             key={index}
-                            className="bg-white-100  mr-10 rounded-lg relative drop-shadow-2xl mt-4 mb-20"
+                            className="bg-white-100  mr-10 rounded-lg relative  shadow-[50px_50px_100px_0px_rgba(0,0,0,0.15)] mt-4 mb-20"
                         >
                             <img src={item.image} alt="" />
                             <div className="p-6">
