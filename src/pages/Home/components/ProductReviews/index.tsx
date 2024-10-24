@@ -36,7 +36,7 @@ const ProductPreviews = () => {
     const matches2 = useMediaQuery("(min-width: 460px)")
     return (
         <div className="pl-10 md:pl-20 lg:pl-36 mt-20 md:mb-40 mb-20">
-            <hr className="bg-[#21384218] text-[#21384218] mx-10 md:mx-20 lg:mr-36" />
+            <hr className="bg-[#21384218] text-[#21384218] mr-10 md:mr-20 lg:mr-36" />
             <h2 className="text-green-100 mb-6 text-[30px] md:text-xl font-bold mt-10 md:mt-20">
                 Product Reviews
             </h2>

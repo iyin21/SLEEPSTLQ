@@ -9,10 +9,10 @@ const AboutProduct = () => {
             {/* className="w-[50%] h-auto" */}
 
             <div className="md:mt-20 md:pl-10 md:w-[50%]">
-                <h2 className="font-bold text-center md:text-left ">
+                <h2 className="font-bold ">
                     About Product
                 </h2>
-                <p className="mt-6 text-center md:text-left text-primary-90">
+                <p className="mt-6 text-primary-90">
                     Our Personal Diffuser is an aromatherapy device that
                     contains a blend of melatonin, lavender, and chamomile. A
                     few breaths of our plant-based essential oil mist will
@@ -27,24 +27,25 @@ const AboutProduct = () => {
                     <br />
                     ‍⚕️ 3rd-party lab tested.
                 </p>
-                <div className="flex mt-4 gap-8 text-lg">
+                <div className="flex mt-6 gap-8 text-lg items-center text-black-100">
                     <div>
                         <p>Price</p>
-                        <p className="font-semibold">USD 50</p>
+                        <p className="font-semibold mt-2">USD 50</p>
                     </div>
                     <div>
                         <p>Unit</p>
-                        <div className="w-[50px] border-primary-100 border-2 rounded-[5px] px-2">
+                        <div className="w-[58px] border-primary-100 border-2 rounded-[5px] p-2">
                             <input
                                 type="number"
                                 className="w-full outline-none bg-transparent"
+                                defaultValue={2}
                             />
                         </div>
                     </div>
                 </div>
-                <div className="flex md:block justify-center">
-                    <Button className="mt-6">Buy</Button>
-                </div>
+                
+                    <Button className="mt-8">Buy</Button>
+                
             </div>
         </div>
     )

@@ -1,6 +1,8 @@
 import { Button } from "@components/index"
+import { useNavigate } from "react-router-dom"
 
 const VisitShop = () => {
+    const navigate = useNavigate()
     return (
         <div className="mt-20 md:mt-40 px-4 md:px-0">
             <h2 className="text-primary-100 text-center font-bold text-[30px] md:text-xl">
@@ -13,7 +15,9 @@ const VisitShop = () => {
                 the mind, and lull you to bed.
             </p>
             <div className="flex justify-center">
-                <Button className="mt-6">Visit Shop</Button>
+                <Button className="mt-6" onClick={() => navigate("/shop")}>
+                    Visit Shop
+                </Button>
             </div>
         </div>
     )

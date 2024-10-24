@@ -2,7 +2,7 @@ import OurMissionImg from "@assets/images/ourMission.png"
 
 const OurMission = () => {
     return (
-        <div className="md:flex gap-20 mt-32 mx-10 md:mx-0 md:ml-20  lg:ml-36">
+        <div className="md:flex gap-20 mt-40 mx-10 md:mx-0 md:ml-20  lg:ml-36">
             <div className=" mt-10 lg:mt-20 md:w-[40%]">
                 <h2 className="font-bold text-primary-100 text-[30px] md:text-xl">Our Mission</h2>
                 <p className="mt-6 text-primary-90 text-lg">

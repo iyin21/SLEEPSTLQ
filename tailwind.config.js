@@ -17,6 +17,9 @@ export default {
                 white: {
                     100: "#ffffff",
                 },
+                black:{
+                    100:"#000000"
+                }
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
