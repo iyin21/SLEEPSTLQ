@@ -6,10 +6,10 @@ import { useState } from "react"
 import { IoCloseOutline } from "react-icons/io5"
 
 const navLinks = [
-    { name: "Home", href: "/" },
+    { name: "Home", href: "/home" },
     {
         name: "About",
-        href: "/about",
+        href: "/#",
     },
     { name: "Shop", href: "/shop" },
     { name: "FAQs", href: "/faqs" },

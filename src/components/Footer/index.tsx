@@ -8,10 +8,10 @@ import { useMediaQuery } from "@mantine/hooks"
 const links = [
     {
         name: "About",
-        href: "/about",
+        href: "",
     },
-    { name: "Blog", href: "/" },
-    { name: "Contact", href: "/shop" },
+    { name: "Blog", href: "" },
+    { name: "Contact", href: "" },
     { name: "Jobs", href: "/faqs" },
 ]
 
@@ -49,7 +49,9 @@ const Footer = () => {
                 </div>
                 {/* col-span-2 */}
                 <div className="col-span-2  md:col-span-1 lg:col-span-2  ">
-                    <p className="font-semibold mb-6 text-lg leading-[38px]">CONSUMER ADVISORY</p>
+                    <p className="font-semibold mb-6 text-lg leading-[38px]">
+                        CONSUMER ADVISORY
+                    </p>
                     <p>
                         These statements have not been evaluated by the Food and
                         Drug Administration. This product is not intended to
@@ -74,7 +76,9 @@ const Footer = () => {
                         <p className="text-[#ABABAB] mt-2">
                             Feel free to get in touch with us vai email
                         </p>
-                        <p className="my-6 text-2lg lg:text-3lg">hello@sleepstiq.com</p>
+                        <p className="my-6 text-2lg lg:text-3lg">
+                            hello@sleepstiq.com
+                        </p>
                         <div className="flex gap-4">
                             <img src={Facebook} alt="" />
                             <img src={Twitter} alt="" />
