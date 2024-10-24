@@ -5,7 +5,7 @@ import AboutProduct from "./components/AboutProduct"
 const Shop = () => {
     return (
         <div>
-            <header className="h-screen bg-cover   bg-no-repeat bg-center bg-hero-background2">
+            <header className="h-screen bg-cover bg-[40%]   bg-no-repeat bg-center bg-hero-background2">
                 <Navbar />
                 <HeroSection />
             </header>

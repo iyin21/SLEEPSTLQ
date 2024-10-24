@@ -9,7 +9,7 @@ const OurAmazingStory = () => {
         <div className="md:flex px-4 sm:px-10 md:px-20 lg:px-36 mt-32 gap-20 w-full">
             <div className="text-primary-100 md:w-[50%]">
                 <p className="text-md">Our Amazing Story</p>
-                <h2 className="font-bold mt-6 ">
+                <h2 className="font-bold mt-6 text-[30px] md:text-xl">
                     10k+Happ<span className="bg-[#FFD7231A]">y Customers</span>
                 </h2>
                 <p className="mt-10 opacity-60 ">

@@ -10,7 +10,7 @@ import ProductPreviews from "./components/ProductReviews"
 const Home = () => {
     return (
         <div className="w-full">
-            <header className=" bg-cover bg-center h-screen bg-hero-background">
+            <header className=" bg-cover bg-center  h-screen bg-hero-background">
                 <Navbar />
                 <HeroSection />
             </header>

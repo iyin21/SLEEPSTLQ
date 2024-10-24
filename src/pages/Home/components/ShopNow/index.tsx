@@ -26,7 +26,7 @@ const ShopNow = () => {
                     className={`mt-10 md:mt-20 lg:mt-32 px-4 sm:px-10 md:px-20  ${matches && "pr-28 mt-16 w-[50%]"} lg:pr-40`}
                 >
                     <h2
-                        className={`font-bold text-primary-100 ${matches ? "text-left" : "text-center"} `}
+                        className={`font-bold text-primary-100 text-[30px] md:text-xl ${matches ? "text-left" : "text-center"} `}
                     >
                         Shop Now
                     </h2>

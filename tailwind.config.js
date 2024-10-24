@@ -19,9 +19,8 @@ export default {
                 },
             },
             fontFamily: {
-                workSans: ["Work Sans", "sans-serif"],
-                nunito: ["Nunito", "sans-serif"],
-                syne: ["Syne", "sans-serif"],
+                poppins: ["Poppins", "sans-serif"],
+                
             },
             fontSize: {
                 "2xl": ["60px", "74px"],
@@ -42,13 +41,7 @@ export default {
                     "0 100px 100px rgba(0, 0, 0, 0.15)",
                 ],
             },
-            backgroundSize: {
-                'auto': 'auto',
-                'cover': 'cover',
-                'contain': 'contain',
-                '70%': '75%',
-                '16': '4rem',
-              },
+            
             backgroundImage: {
                 "hero-background": "url('/src/assets/images/Slider.png')",
                 "hero-background2": "url('/src/assets/images/Slider2.png')",

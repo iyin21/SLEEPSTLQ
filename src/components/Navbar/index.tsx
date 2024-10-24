@@ -62,7 +62,7 @@ const Navbar = () => {
                         />
                     </div>
 
-                    <ul className=" flex justify-center flex-col mt-6 text-center  gap-y-6 text-md sm:text-2lg">
+                    <ul className=" flex justify-center flex-col mt-6 text-center  gap-y-6 text-2lg">
                         {navLinks.map((item) => (
                             <li key={item.name}>
                                 <NavLink

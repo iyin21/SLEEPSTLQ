@@ -33,24 +33,34 @@ const productReviews = [
 const ProductPreviews = () => {
     const matches = useMediaQuery("(min-width: 760px)")
     const matches1 = useMediaQuery("(min-width: 1024px)")
+    const matches2 = useMediaQuery("(min-width: 460px)")
     return (
         <div className="pl-10 md:pl-20 lg:pl-36 mt-20 md:mb-40 mb-20">
-            <hr className="bg-[#21384218] text-[#21384218] px-10 md:px-20 lg:pr-36" />
+            <hr className="bg-[#21384218] text-[#21384218] mx-10 md:mx-20 lg:mr-36" />
             <h2 className="text-green-100 mb-6 text-[30px] md:text-xl font-bold mt-10 md:mt-20">
                 Product Reviews
             </h2>
             <div>
                 <Carousel
                     withIndicators
-                    height={520}
+                    height={matches2 ? 520 : 530}
                     withControls={false}
                     loop
-                    slidesToScroll={matches1 ? 4 : matches ? 3 : 2}
-                    slideSize={matches1 ? "25%" : matches ? "33.33%" : "50%"}
+                    slidesToScroll={
+                        matches1 ? 4 : matches ? 3 : matches2 ? 2 : 1
+                    }
+                    slideSize={
+                        matches1
+                            ? "25%"
+                            : matches
+                              ? "33.33%"
+                              : matches2
+                                ? "50%"
+                                : "100%"
+                    }
                     align="start"
                 >
                     {productReviews.map((item, index) => (
-                        //height={200}
                         <Carousel.Slide
                             key={index}
                             className="bg-white-100  mr-10 rounded-lg relative  shadow-[50px_50px_100px_0px_rgba(0,0,0,0.15)] mt-4 mb-20"
