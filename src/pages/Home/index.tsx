@@ -7,21 +7,16 @@ import OurMission from "./components/OurMission"
 import VisitShop from "./components/VisitShop"
 import ProductPreviews from "./components/ProductReviews"
 
-
 const Home = () => {
     return (
         <div className="w-full">
-           
-            <header
-                className=" bg-cover bg-center h-screen bg-hero-background"
-                
-            >
+            <header className=" bg-cover bg-center h-screen bg-hero-background">
                 <Navbar />
                 <HeroSection />
             </header>
             <Partners />
             <OurAmazingStory />
-            <Testimonials/>
+            <Testimonials />
             <ShopNow />
             <OurMission />
             <VisitShop />
@@ -32,5 +27,3 @@ const Home = () => {
 }
 
 export default Home
-
-
