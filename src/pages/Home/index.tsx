@@ -11,15 +11,10 @@ import ProductPreviews from "./components/ProductReviews"
 const Home = () => {
     return (
         <div className="w-full">
-            {/* bg-hero-background */}
+           
             <header
-                className=" bg-cove bg-cente h-screen"
-                style={{
-                    background: "url('/src/assets/images/Slider.png')",
-                    backgroundPosition: "center",
-                    backgroundRepeat: "no-repeat",
-                    backgroundSize: "cover",
-                }}
+                className=" bg-cover bg-center h-screen bg-hero-background"
+                
             >
                 <Navbar />
                 <HeroSection />
@@ -38,4 +33,4 @@ const Home = () => {
 
 export default Home
 
-// box-shadow: 50px 50px 100px 0px #00000025;
+
